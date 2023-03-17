@@ -1,5 +1,4 @@
 import time
-
 def second_countdown(h, m, s):
     for i in range(s-1, -1, -1):
         print(f"{h}:{m}:{i}")
